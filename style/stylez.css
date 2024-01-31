@@ -1,0 +1,54 @@
+
+
+
+
+
+  .header-text {
+    flex-grow: 1;
+    padding: 10px;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .header-text p {
+    font-size: 18px;
+  }
+/* Style for the login container */
+.login-box {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style for the message box */
+.message-box {
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.coat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  margin-right: 20px;
+  border-radius: 40%;
+  overflow: hidden; /* Ensure the image stays within the circular shape */
+}
+
+.coat img {
+  width: 20%;
+  height: 20%;
+  object-fit: cover; /* Maintain the image aspect ratio */
+}
+.log {
+  position: relative;
+  top: 100px; /* Adjust the value as needed */
+}

@@ -1,0 +1,163 @@
+/* FOOTER SECTION START HERE */
+.footmain{
+    width: 100vw;
+    /* height: 100vh; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+iframe{
+    width: 95%;
+    height: 50vh;
+    margin: 20px 0 40px;
+}
+
+.form-cont{
+    /* background-color: blue; */
+    width: 95%;
+    font-family: 'Noto Sans';
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 30px;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50%;
+}
+
+    
+footer ul.quick-links{
+    /* display: flex; */
+    /* font-family: 'Noto Sans'; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.foot-start{
+    padding: 7px;
+}
+
+.foot-start{
+    /* background-color: green; */
+    font-family: '';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.final-foot{
+    font-family: 'Noto Sans';
+    text-align: center;
+    /* background-color: red; */
+    margin: 0 auto 10px;
+    width: 85%;
+    font-size: .9em;
+}
+
+h6{
+    font-weight: 900;
+    /* text-align: center; */
+    color: white;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:blue;
+    font-size: 1.9em;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 850px) {
+    /* Styles for large screens */
+    /* Add your CSS rules here */
+
+    .footmain{
+        padding: 30px 0 0;
+        height: 75vh;
+        /* background-color: blue; */
+        flex-direction: row;
+        margin: 0 0 30px;
+    }
+
+    iframe{
+        width: 45%;
+        height: 100%;
+        border-radius: .3em;
+    }
+    
+    .form-cont{
+        width: 40%;
+        height: 90%;
+    }
+
+    footer{
+        /* margin: 5px 0 0 ; */
+        /* padding-bottom: 10px; */
+        background-color: rgba(0, 0, 0, 0.92);
+        height: 50vh;
+        padding-bottom: 0px;
+    
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .quick-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foot-start{
+        padding: 7px;
+        flex-direction: row;
+        
+    }
+
+    .foot-start{
+        /* background-color: green; */
+        font-family: 'Noto Sans';
+        display: flex;
+        height: 60%;
+        justify-content: space-around;
+    }
+
+    .final-foot{
+        text-align: center;
+        background-color: green;
+        margin: 0 auto 0;
+        width: 50%;
+    }
+
+}
+
+  .contacts img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+
+/* FOOTER SECTION ENDS HERE */
